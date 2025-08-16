@@ -2,18 +2,33 @@ const express = require('express');
 const router = express.Router();
 const DB = require('../data/db.json');
 
+const baseUrl = process.env.BASE_URL || 'http://localhost:5000';
 
+
+function addBaseUrlToProjects(projects){
+    return projects.map(project => ({
+        ...project,
+        image_url: `${baseUrl}${project.image_url}`,
+    }));
+}
 
 router.get('/random', (req, res) => {
 
     const randomIndex = Math.floor(Math.random() * DB.projects.length);
     const randomProject = DB.projects[randomIndex];
-    res.status(200).json(randomProject);
+
+    const projectWithFullImageUrl = {
+        ...randomProject,
+        image_url: `${baseUrl}${randomProject.image_url}`
+    };
+
+    res.status(200).json(projectWithFullImageUrl);
 
 })
 
 router.get('/', (req, res) => {
-    res.status(200).json(DB.projects)
+    const projectWithFullImageUrl = addBaseUrlToProjects(DB.projects);
+    res.status(200).json(projectWithFullImageUrl);
 })
 
 router.get('/:id', (req, res) => {
@@ -27,7 +42,13 @@ router.get('/:id', (req, res) => {
         var project = DB.projects.find(p => p.id == id);
 
         if(project != undefined){
-            res.status(200).json(project);
+
+            const projectWithFullImageUrl = {
+                ...project,
+                image_url: `${baseUrl}${project.image_url}`
+            };
+
+            res.status(200).json(projectWithFullImageUrl);
 
         } else {
             res.sendStatus(404);
