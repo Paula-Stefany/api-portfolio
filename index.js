@@ -5,11 +5,10 @@ const cors = require('cors');
 const path = require('path');
 
 
-app.use(cors());
 
-/*app.use(cors({
-  origin: '', 
-}));*/
+app.use(cors({
+  origin: 'https://portfolio-phi-three-x0kf900wyo.vercel.app', 
+}));
 
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
