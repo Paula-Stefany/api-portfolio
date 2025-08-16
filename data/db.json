@@ -1,0 +1,65 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "title": "Crypto View", "technologies": ["React", "TypeScript", "Tailwind CSS", "React Router DOM", "CoinGecko Public API"], "description": "O CryptoView é um aplicativo web que exibe informações atualizadas sobre criptomoedas em tempo real. Ele permite aos usuários explorar diferentes moedas, visualizar detalhes individuais e carregar mais ativos conforme desejarem, tudo em uma interface responsiva e moderna.",
+            "image_url": "http://localhost:5000/images/crypto.png", 
+            "project_url": "https://crypto-view-khaki.vercel.app/",
+            "github_url": "https://github.com/Paula-Stefany/crypto-view"
+        },
+        {
+            "id": 1,
+            "title": "For Gamers", "technologies": ["Next", "TypeScript", "Tailwind CSS", "Sujeito Programador API"], 
+            "description": "For-Gamers é um projeto web voltado para apaixonados por jogos. A aplicação consome a API do Sujeito Programador para exibir um catálogo de jogos, incluindo um jogo aleatório em destaque, e oferece uma navegação intuitiva e responsiva com busca dinâmica por título e visualização de detalhes de cada jogo.",
+            "image_url": "http://localhost:5000/images/for_gamers.png", 
+            "project_url": "https://for-gamers-elcl.vercel.app/",
+            "github_url": "https://github.com/Paula-Stefany/for-gamers"
+        },
+        {
+            "id": 2,
+            "title": "Ecommerce",
+            "technologies": ["React", "TypeScript", "Tailwind CSS", "React Router DOM", "React Hot Toast", "Axios", "JSON Server"], 
+            "description": "O Carrinho Ecommerce é um site de compras fictício, com foco em navegação fluida e responsiva. Permite que usuários explorem produtos, visualizem detalhes, adicionem itens ao carrinho e simulem uma experiência de compra simples e moderna.",
+            "image_url": "http://localhost:5000/images/ecommerce.png", 
+            "project_url": null,
+            "github_url": "https://github.com/Paula-Stefany/carrinho-ecommerce"
+        },
+        {
+            "id": 3,
+            "title": "Gerenciador de Contatos",
+            "technologies": ["React", "TypeScript", "Tailwind CSS", "React Hook Form", "Zod"], 
+            "description": "Aplicação para gerenciamento de contatos, permitindo criar, editar, visualizar e excluir registros com facilidade. Conta com formulários validados e interface responsiva para uma experiência simples e eficiente.",
+            "image_url": "http://localhost:5000/images/gerenciador_contatos.png", 
+            "project_url": "https://gerenciador-de-contatos-theta.vercel.app/",
+            "github_url": "https://github.com/Paula-Stefany/gerenciador-de-contatos"
+        }, 
+        {
+            "id": 4,
+            "title": "Tasks",
+            "technologies": ["Next", "TypeScript", "Tailwind CSS", "NextAuth.js", "Firebase Firestore"], 
+            "description": "Aplicação web para gerenciamento de tarefas que permite aos usuários criar, visualizar, excluir e compartilhar suas atividades de forma prática. Conta com um sistema de autenticação, onde usuários autenticados podem gerenciar suas tarefas privadas e interagir com tarefas públicas por meio de comentários. A interface é simples e intuitiva, oferecendo uma experiência organizada e eficiente para acompanhar o dia a dia.",
+            "image_url": "http://localhost:5000/images/tasks.png", 
+            "project_url": null,
+            "github_url": "https://github.com/Paula-Stefany/tasks"
+        },
+        {
+            "id": 5,
+            "title": "LP Advocacia",
+            "technologies": ["HTML", "CSS", "JavaScript", "Flexbox", "Lazy Loading"], 
+            "description": "Landing page desenvolvida com foco em desempenho, acessibilidade e boas práticas. O layout é totalmente responsivo, com navegação fluida entre seções e elementos interativos que facilitam a experiência do usuário. A estrutura do projeto foi pensada para garantir carregamento rápido, organização clara e compatibilidade com mecanismos de busca.",
+            "image_url": "http://localhost:5000/images/lp_advocacia.png", 
+            "project_url": "https://advogado-fulano.vercel.app/",
+            "github_url": "https://github.com/Paula-Stefany/landing-page-advocacia"
+        },
+        {
+            "id": 6,
+            "title": "LP English Here",
+            "technologies": ["HTML", "CSS", "JavaScript", "Flexbox"], 
+            "description": "Landing page de apresentação de um curso de inglês, com layout responsivo e navegação fluida. Possui cards interativos com navegação por setas, estrutura organizada e otimizada para buscadores, garantindo uma experiência visual clara e bem estruturada para o usuário.",
+            "image_url": "http://localhost:5000/images/lp_ingles.png", 
+            "project_url": "https://englishhere.vercel.app/",
+            "github_url": "https://github.com/Paula-Stefany/LandingPage-Curso-de-Ingles"
+        }
+            
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "skills": {
+    "frontend": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "HTML",
+      "CSS"
+    ],
+    "backend": [
+      "Node.js",
+      "Express",
+      "Python", 
+      "Django",
+      "Firebase",
+      "Supabase",
+      "MySQL" 
+    ],
+    "ferramentas": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Figma",
+      "npm",
+      "Vercel",
+      "Render",
+      "Postman"
+    ]
+  }
+}
