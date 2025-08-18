@@ -59,6 +59,15 @@
             "image_url": "/images/lp_ingles.png", 
             "project_url": "https://englishhere.vercel.app/",
             "github_url": "https://github.com/Paula-Stefany/LandingPage-Curso-de-Ingles"
+        },
+        {
+            "id": 7,
+            "title": "Portfólio",
+            "technologies": ["Next", "Node", "Tailwind CSS", "TypeScript", "Portfolio API"], 
+            "description": "Portfólio pessoal FullStack desenvolvido com foco em performance, organização e experiência do usuário. O projeto conta com uma estrutura completa composta por sessões como Sobre Mim, Projetos, Habilidades e páginas de detalhes para cada projeto apresentado. O frontend foi construído com Next.js, TypeScript e Tailwind CSS, garantindo um layout responsivo, navegação fluida e código escalável. Já o backend foi desenvolvido separadamente, utilizando Node.js e Express, permitindo maior modularidade e organização entre as camadas do sistema.",
+            "image_url": "/images/portfolio.png", 
+            "project_url": "https://portfolio-phi-three-x0kf900wyo.vercel.app/",
+            "github_url": "https://github.com/Paula-Stefany/portfolio"
         }
             
     ]
